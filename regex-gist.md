@@ -204,6 +204,31 @@ _“Sticky” mode: searching at the exact position in the text._
 
 ### Character Escapes
 
+_Let’s say we want to find literally a dot. Not “any character”, but just a dot._
+_To use a special character as a regular one, prepend it with a backslash: `\`._
+
+_That’s also called “escaping a character”._
+_For example:_
+
+```javascript
+console.log("Chapter 5.1".match(/\d\.\d/)); // 5.1 (match!)
+console.log("Chapter 511".match(/\d\.\d/)); // null (looking for a real dot \.)
+```
+
+_Parentheses are also special characters, so if we want them, we should use \(. The example below looks for a string "g()":_
+
+```javascript
+console.log("function g()".match(/g\(\)/)); // "g()"
+```
+
+_If we’re looking for a backslash \, it’s a special character in both regular strings and regexps, so we should double it._
+
+```javascript
+console.log("1\\2".match(/\\/)); // '\'
+```
+
+---
+
 ## Author
 
 Name: Gospel Chukwu
