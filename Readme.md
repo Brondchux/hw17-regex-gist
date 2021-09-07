@@ -60,7 +60,7 @@ THEN I find a section about the author and a link to the author’s GitHub profi
 ## Useful Links
 
 1. 🗂 [Click me to view github repository for this project](https://github.com/Brondchux/hw17-regex-gist/)
-2. 🌍 [Click me to view deployed version via github gists](https://live-hw10-employee-management.herokuapp.com/)
+2. 🌍 [Click me to view deployed version via github gists](https://gist.github.com/Brondchux/ba18a4b66b02b6b40d1429794fc09cad)
 
 ---
 
