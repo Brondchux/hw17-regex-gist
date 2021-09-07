@@ -161,6 +161,47 @@ _Output_
 
 ### Flags
 
+_Regular expressions may have flags that affect the search.
+There are only 6 of them in JavaScript:_
+
+```javscript
+"i"
+```
+
+_With this flag the search is case-insensitive: no difference between A and a._
+
+```javscript
+"g"
+```
+
+_With this flag the search looks for all matches, without it – only the first match is returned._
+
+```javscript
+"m"
+```
+
+_Multiline mode (covered in the chapter Multiline mode of anchors ^ $, flag "m")._
+
+```javscript
+"s"
+```
+
+_Enables “dotall” mode, that allows a dot . to match newline character \n._
+
+```javscript
+"u"
+```
+
+_Enables full Unicode support. The flag enables correct processing of surrogate pairs._
+
+```javscript
+"y"
+```
+
+_“Sticky” mode: searching at the exact position in the text._
+
+---
+
 ### Character Escapes
 
 ## Author
