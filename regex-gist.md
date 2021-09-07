@@ -23,6 +23,22 @@ A regular expression (shortened as regexp; also referred to as rational expressi
 
 ### Anchors
 
+_Anchors assert that the engine's current position in the string matches a well-determined location: for instance, the beginning of the string, or the end of a line.
+See the following example:_
+
+```javascript
+let str = "Gospel";
+console.log(/^G/.test(str));
+```
+
+_Output_
+
+```javascript
+true;
+```
+
+_The /^J/ match any text that starts with the letter J. It returns true_
+
 ### Quantifiers
 
 ### Grouping Constructs
