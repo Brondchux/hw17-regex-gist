@@ -18,6 +18,8 @@ A regular expression (shortened as regexp; also referred to as rational expressi
 - [The OR Operator](#the-or-operator)
 - [Flags](#flags)
 - [Character Escapes](#character-escapes)
+- [Closing Remark](#closing-remark)
+- [Author Info](#author-info)
 
 ## Regex Components
 
@@ -229,7 +231,15 @@ console.log("1\\2".match(/\\/)); // '\'
 
 ---
 
-## Author
+## Closing Remark
+
+Thank you for reading, I hope this article has improved your knowledge on regex 😃
+
+---
+
+## Author Info
+
+I'll love to meet you digitally and some day in-person. I can be reached via:
 
 Name: Gospel Chukwu
 
