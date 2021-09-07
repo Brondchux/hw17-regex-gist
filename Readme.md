@@ -10,14 +10,14 @@ Check back often as there will be something new for you to learn about regex eac
 
 ## Table of Content
 
-1. [Project Description](https://github.com/Brondchux/hw11-ecommerce-backend#project-description)
-2. [Author Info](https://github.com/Brondchux/hw11-ecommerce-backend#author-info)
-3. [User Story](https://github.com/Brondchux/hw11-ecommerce-backend#user-story)
-4. [Acceptance Criteria](https://github.com/Brondchux/hw11-ecommerce-backend#acceptance-criteria)
-5. [Useful Links](https://github.com/Brondchux/hw11-ecommerce-backend#useful-links)
-6. [Tech Stack](https://github.com/Brondchux/hw11-ecommerce-backend#tech-stack)
-7. [Credits](https://github.com/Brondchux/hw11-ecommerce-backend#credits)
-8. [License](https://github.com/Brondchux/hw11-ecommerce-backend#license)
+1. [Project Description](https://github.com/Brondchux/hw17-regex-gist#project-description)
+2. [Author Info](https://github.com/Brondchux/hw17-regex-gist#author-info)
+3. [User Story](https://github.com/Brondchux/hw17-regex-gist#user-story)
+4. [Acceptance Criteria](https://github.com/Brondchux/hw17-regex-gist#acceptance-criteria)
+5. [Useful Links](https://github.com/Brondchux/hw17-regex-gist#useful-links)
+6. [Tech Stack](https://github.com/Brondchux/hw17-regex-gist#tech-stack)
+7. [Credits](https://github.com/Brondchux/hw17-regex-gist#credits)
+8. [License](https://github.com/Brondchux/hw17-regex-gist#license)
 
 ---
 
@@ -59,8 +59,8 @@ THEN I find a section about the author and a link to the author’s GitHub profi
 
 ## Useful Links
 
-1. 🗂 [Click me to view github repository for this project](https://github.com/Brondchux/hw11-ecommerce-backend/)
-2. 🌍 [Click me to view deployed application via heroku](https://live-hw10-employee-management.herokuapp.com/)
+1. 🗂 [Click me to view github repository for this project](https://github.com/Brondchux/hw17-regex-gist/)
+2. 🌍 [Click me to view deployed version via github gists](https://live-hw10-employee-management.herokuapp.com/)
 
 ---
 
