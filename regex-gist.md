@@ -6,7 +6,7 @@ Excited to learn and understand regex? Let's get started!
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+A regular expression (shortened as regexp; also referred to as rational expression or regex) is a sequence of characters that specifies a search pattern. Usually such patterns are used by string-searching algorithms for "find" or "find and replace" operations on strings, or for input validation.
 
 ## Table of Contents
 
