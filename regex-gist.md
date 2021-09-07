@@ -133,6 +133,32 @@ console.log(phoneNo); // -> 14085550105
 
 ### The OR Operator
 
+_The OR operator, also known as alternation which is it's term in regular expression._
+
+_In a regular expression it is denoted with a vertical line character_ **|**
+
+_For instance, if we need to find the programming languages: HTML, PHP, Java or JavaScript._
+
+_The corresponding regexp:_ html | php | java(script) ?.
+
+_A usage example:_
+
+```javascript
+let regexp = /html|php|css|java(script)?/gi;
+
+let str = "First HTML appeared, then CSS, then JavaScript";
+
+console.log(str.match(regexp));
+```
+
+_Output_
+
+```javascript
+// 'HTML', 'CSS', 'JavaScript'
+```
+
+---
+
 ### Flags
 
 ### Character Escapes
