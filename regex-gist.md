@@ -111,6 +111,26 @@ _You will often see ranges of the alphabet or all numerals. [A-Za-z] [0-9] Remem
 
 ### Character Classes
 
+_A character class allows you to match any symbol from a certain character set. A character class is also called a character set. Suppose that you have a phone number like this:_
+
+```javascript
+"+1-(408)-555-0105";
+```
+
+_Now, you can turn the phone number into a plain number as follows:_
+
+```javascript
+let phone = "+1-(408)-555-0105";
+let re = /\d/g;
+
+let numbers = phone.match(re);
+let phoneNo = numbers.join("");
+
+console.log(phoneNo); // -> 14085550105
+```
+
+---
+
 ### The OR Operator
 
 ### Flags
