@@ -1,6 +1,6 @@
 # Regex for Beginners 101
 
-Do characters like ("<?>%/-_#/_$) confuse you? If yes then this gist project was created for you.
+Do characters like (^"<?>%/-_#/_$) confuse you? If yes then this gist project was created for you.
 We will cover what Regular Expression (regex) is about starting from the basics.
 Excited to learn and understand regex? Let's get started!
 
