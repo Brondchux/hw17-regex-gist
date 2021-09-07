@@ -1,4 +1,4 @@
-# Regex for Beginners
+# Regex for Beginners 101
 
 Do characters like ("<?>%/-_#/_$) confuse you? If yes then this gist project was created for you.
 We will cover what Regular Expression (regex) is about starting from the basics.
@@ -39,4 +39,8 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Name: Gospel Chukwu
+
+Email: hello@gospelchukwu.com
+
+Portfolio: [www.gospelchukwu.com](https://brondchux.github.io/hw2-my-portfolio/)
