@@ -37,13 +37,77 @@ _Output_
 true;
 ```
 
-_The /^J/ match any text that starts with the letter J. It returns true_
+_The /^G/ match any text that starts with the letter J. It returns true_
+
+---
 
 ### Quantifiers
 
+_Quantifiers match a number of instances of a character, group, or character class in a string._
+
+_Exact count {n}. A number in curly braces {n}is the simplest quantifier. When you append it to a character or character class, it specifies how many characters or character classes you want to match._
+
+_For example, the regular expression /\d{4}/ matches a four-digit number. It is the same as /\d\d\d\d/:_
+
+```javascript
+let str = "ECMAScript 2020";
+let re = /\d{4}/;
+
+let result = str.match(re);
+
+console.log(result);
+```
+
+_Output_
+
+```javascript
+["2020"];
+```
+
+---
+
 ### Grouping Constructs
 
+_A part of a pattern can be enclosed in parentheses (...). This is called a “capturing group”._
+
+_That has two effects:_
+
+1. _It allows to get a part of the match as a separate item in the result array._
+2. _If we put a quantifier after the parentheses, it applies to the parentheses as a whole._
+
+_For Example, email format is: name@domain. Any word can be the name, hyphens and dots are allowed. In regular expressions that’s [-.\w]+._
+
+```javascript
+let regexp = /[-.\w]+@([\w-]+\.)+[\w-]+/g;
+
+console.log("my@mail.com @ his@site.com.uk".match(regexp));
+```
+
+_Output_
+
+```javascript
+// my@mail.com, his@site.com.uk
+```
+
+---
+
 ### Bracket Expressions
+
+_Brackets indicate a set of characters to match. Any individual character between the brackets will match, and you can also use a hyphen to define a set._
+
+```javascript
+"elephant".match(/[abcd]/); // -> matches 'a'
+```
+
+_You will often see ranges of the alphabet or all numerals. [A-Za-z] [0-9] Remember that these character sets are case sensitive, unless you set the i flag._
+
+```javascript
+"elephant".match(/[a-d]/); // -> matches 'a'
+"elephant".match(/[A-D]/); // -> no match
+"elephant".match(/[A-D]/i); // -> matches 'a'
+```
+
+---
 
 ### Character Classes
 

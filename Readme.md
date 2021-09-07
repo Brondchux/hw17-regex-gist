@@ -76,6 +76,12 @@ Appreciations to Ben 🙌🏾 of [Columbia University, Software Engineering Codi
 
 Special thanks to [Google](https://www.google.com) for helping me find the accurate answers to my questions in a very timely manner.
 
+[Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+
+[JavaScript Regular Expression](https://www.javascripttutorial.net/javascript-regular-expression/)
+
+[JavaScript Info](https://javascript.info/regexp-groups)
+
 ---
 
 ## License
